@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 150px;
+        fill: #f4f7f9;
+        font-family: "2  Elham";
+      }
+    </style>
+  </defs>
+  <text id="پیشنهاد_" data-name="پیشنهاد " class="cls-1" x="241.5" y="183.5">پیشنهاد</text>
+  <text id="انگیز" class="cls-1" x="328.5" y="474.5">انگیز</text>
+  <text id="شگفت_" data-name="شگفت " class="cls-1" x="268.5" y="334.5">شگفت </text>
+</svg>

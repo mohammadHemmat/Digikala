@@ -9,6 +9,7 @@
     --border-radius: 8px;
     --color-icon-low-emphasis: #a1a3a8;
     --color-icon-dot: #F0F0F1;
+    --font-family: IRANYekan,sans-serif
 }
 
 body {
@@ -105,8 +106,94 @@ body {
     width: 25px;
     height: 25px;
     fill: #9e9e9e;
-    border: ;
 }
+
+.axe {
+    width: 20px;
+    height: 20px;
+}
+
+.background-box > img {
+    width: 40px;
+    height: 20px;
+}
+
+.background-box {
+    border-radius: 30px;
+    border: 1px solid #EF4056;
+    background: #EF4056;
+    display: flex;
+    margin: 0 10rem 10rem 10rem;
+    width: 800px;
+    height: 400px;
+}
+
+.amazing__layout {
+    margin: 7rem 0 1rem;
+}
+
+.text__all {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-style: inherit;
+    font-size: large;
+}
+
+.main-ghablame {
+    width: auto;
+    height: 25rem;
+    background: #fff;
+    border-bottom-right-radius: 10px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.amazing-ghablame > img {
+    width: 200px;
+    height: 200px;
+}
+
+.off-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.off-percent {
+    border: 1px solid #EF4056;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 40px;
+    display: inline-block;
+    background: #EF4056;
+    color: #fff;
+}
+
+.original-price  {
+    display: flex;
+    margin-right: 5rem;
+    text-decoration-line: line-through;
+    color: #9e9e9e;
+}
+
+.tooman {
+    display: flex;
+    font-size: large;
+}
+
+.tooman-layout {
+    padding-right: 0.5rem;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* icon */
 .fix__icon {
@@ -142,6 +229,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.icon-chevron {
+    display: flex;
+    flex-direction: row;
+    fill: #fff;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg);
+    align-self: center;
+}
+
 
 .icon1 {
     width: 25px;
