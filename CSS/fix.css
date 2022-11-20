@@ -16,6 +16,26 @@
 }
 
 
+.wrapper {
+    display: grid;
+    max-width:800px;
+    /* grid-template-columns: repeat(auto-fill,minmax(100px,1fr)); */
+    grid-template: repeat(2, 1fr) / repeat(7, 2fr); 
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 100%;
+    max-width: 1336px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .wrapper > div {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+
 
 /* Icons */
 
